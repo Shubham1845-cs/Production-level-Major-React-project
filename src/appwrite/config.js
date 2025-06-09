@@ -63,7 +63,7 @@ async deletePost(slug)
      )
      return true;
    } catch (error) {
-       throw error;
+       console.log("error");
        return false;
    }
 }
@@ -78,7 +78,7 @@ async deletePost(slug)
             slug
         )  
     } catch (error) {
-        throw error;
+        consolel.log("error");
         return false;
     }
  }
@@ -92,7 +92,7 @@ async getPosts(queries = [Query.equal("status", "active")]) {
             queries
         );
     } catch (error) {
-        throw error;
+        console.log("error");
         return false;
     }
 }
@@ -105,7 +105,7 @@ async uploadFile(file){
             file
          )
     } catch (error) {
-        throw error;
+        console.log("error");
         return false;
     }
 }
@@ -119,7 +119,7 @@ async deleteFile (fileId){
         )
         return true;
     } catch (error) {
-        throw error;
+        console.log("error");
         return false;
     }
 }
@@ -131,7 +131,7 @@ async getFilePreview(fileId){
             fileId
         )
     } catch (error) {
-        throw error;
+        console.log("error")
         return false;
     }
 }
