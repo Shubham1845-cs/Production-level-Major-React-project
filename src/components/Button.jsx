@@ -18,4 +18,3 @@ function Button({
 }
 
 export default Button
-{children}

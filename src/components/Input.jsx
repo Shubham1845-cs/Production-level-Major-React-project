@@ -1,4 +1,4 @@
-import React,{use, useId} from 'react'
+import React,{ useId} from 'react'
 
 const Input=React.forwardRef( function Input({
     label,
@@ -20,7 +20,7 @@ const Input=React.forwardRef( function Input({
                  {...props}
                  id={id}/>    
           </div>
-   )
+   ) 
 })
 
 export default Input

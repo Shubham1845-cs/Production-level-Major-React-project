@@ -1,6 +1,6 @@
 import React from 'react'
 
-function logo(width="100px") {
+function Imglogo(width="100px") {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function logo(width="100px") {
   )
 }
 
-export default logo
+export default Imglogo
